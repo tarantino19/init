@@ -1,0 +1,21 @@
+# Binaries
+/$(BinaryName)         # Where $(BinaryName) is your executable name (e.g., /myapp or /server)
+
+# Dependencies
+/vendor/             # Directory to include vendored source dependencies
+go.sum               # Checksums of versions for dependency verification
+
+# Temporary Files
+._*                  # MacOS hidden temporary files
+*~                   # Backups from some editors
+#*#
+#.#*                 # Emacs auto-save files
+*.swp                # Swap files
+*.swo                # Swap files
+*.idea               #Jetbrains products
+*.DS_Store            #for Macs
+.vscode/             #for vscode files
+
+#Ignore local files
+.env
+
