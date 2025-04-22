@@ -1,6 +1,10 @@
 # Binaries
 /$(BinaryName)         # Where $(BinaryName) is your executable name (e.g., /myapp or /server)
 
+# Database
+./database
+/database
+
 # Dependencies
 /vendor/             # Directory to include vendored source dependencies
 go.sum               # Checksums of versions for dependency verification
